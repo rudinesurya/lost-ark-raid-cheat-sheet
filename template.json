@@ -1,22 +1,22 @@
 [
     {
         "name": "Echidna G-1",
-        "normal": "/img/echidna-nm-g1.png",
-        "hard": "/img/echidna-hm-g1.png"
+        "normal": "/assets/img/echidna-nm-g1.png",
+        "hard": "/assets/img/echidna-hm-g1.png"
     },
     {
         "name": "Echidna G-2",
-        "normal": "/img/echidna-nm-g2.png",
-        "hard": "/img/echidna-hm-g2.png"
+        "normal": "/assets/img/echidna-nm-g2.png",
+        "hard": "/assets/img/echidna-hm-g2.png"
     },
     {
         "name": "Aegir G-1",
-        "normal": "/img/aegir-nm-g1.png",
-        "hard": "/img/aegir-hm-g1.png"
+        "normal": "/assets/img/aegir-nm-g1.png",
+        "hard": "/assets/img/aegir-hm-g1.png"
     },
     {
         "name": "Aegir G-2",
-        "normal": "/img/aegir-nm-g2.png",
-        "hard": "/img/aegir-hm-g2.png"
+        "normal": "/assets/img/aegir-nm-g2.png",
+        "hard": "/assets/img/aegir-hm-g2.png"
     }
 ]

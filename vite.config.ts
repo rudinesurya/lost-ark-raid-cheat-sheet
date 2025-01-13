@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
+      includeAssets: ['favicon.ico', 'assets/img/**/*.png', 'apple-touch-icon.png', 'mask-icon.svg'],
       manifest: {
         name: 'Lost Ark Raid Cheat Sheet', // <--- 👀
         short_name: 'Lost Ark Raid Cheat Sheet', // <--- 👀

@@ -9,9 +9,9 @@ const ImageDisplay = ({ linksData }) => {
         return <p>Image not found</p>;
     }
 
-    // Determine the image source based on the mode
-    const imageUrl = mode === "hard" ? item.hard : item.normal;
+    const imageUrl = process.env.NODE_ENV === 'development' ? item[mode] : '/lost-ark-raid-cheat-sheet' + item[mode];
 
+    console.log(imageUrl);
     return (
         <Container textAlign="center">
             <Image src={imageUrl} alt={`${item.name} - ${mode}`} style={{ maxWidth: "100%" }} />
