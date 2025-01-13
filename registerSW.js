@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/lost-ark-raid-cheat-sheet/sw.js', { scope: '/lost-ark-raid-cheat-sheet/' })})}
