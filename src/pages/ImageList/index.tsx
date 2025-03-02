@@ -18,13 +18,19 @@ const ImageList = ({ linksData }) => {
               <List.Header>
                 {item.name}
                 <span style={{ marginLeft: "1em" }}>
-                  <Link to={`/image/${index}/normal`} style={{ marginRight: "1em" }}>
+                  {item.normal && <Link to={`/image/${index}/normal`} style={{ marginRight: "1em" }}>
                     Normal
-                  </Link>
-                  |
-                  <Link to={`/image/${index}/hard`} style={{ marginLeft: "1em" }}>
+                  </Link>}
+
+                  {item.normal && item.hard && <>|</>}
+
+                  {item.hard && <Link to={`/image/${index}/hard`} style={{ marginLeft: "1em" }}>
                     Hard
-                  </Link>
+                  </Link>}
+
+                  {item.both && <Link to={`/image/${index}/both`} style={{ marginLeft: "1em" }}>
+                    Both
+                  </Link>}
                 </span>
               </List.Header>
             </List.Content>

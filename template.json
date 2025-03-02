@@ -18,5 +18,13 @@
         "name": "Aegir G-2",
         "normal": "/assets/img/aegir-nm-g2.png",
         "hard": "/assets/img/aegir-hm-g2.png"
+    },
+    {
+        "name": "Brel G-1",
+        "both": "/assets/img/brel-g1.png"
+    },
+    {
+        "name": "Brel G-2",
+        "both": "/assets/img/brel-g2.png"
     }
 ]
